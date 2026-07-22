@@ -39,12 +39,12 @@ def Select(Dir):
             banner()
             print("----ФУНКЦИИ----")
             print("\n0. Базовый анализис сайтов\n1. SQL иньекции\n2. Выход")
-            Select = int(input("\n\n-Выберите функцию:--"))
-            if Select == 0:
+            Select = input("\n\n-Выберите функцию:--"))
+            if Select == "0":
                   retry(urly,Dir)
-            elif Select == 1:
-                  retry(SQL)
-            elif Select == 2:
+            elif Select == "1":
+                  retry(SQL,"url")
+            elif Select == "2":
                   quit()
             else:
                   print("\n-Выберите один из вариантов!")
