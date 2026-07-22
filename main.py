@@ -90,7 +90,7 @@ def Directory(n):
       banner()
       try:
             dr = input("\n-Название папки которая будет созданна и куда будут направленны результаты анализа:\n\n---")
-            dir = f"/AnalisysRep/{dr}"
+            dir = f"AnalisysRep/{dr}"
             if dr == "" :
                   print("-Вы не можете указать пустоту!")
                   retry(Directory,0)
