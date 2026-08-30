@@ -1,6 +1,25 @@
-To use the script you need to see create a forlder with main.py in, you have to create there oneother folder named "AnalisysRep".
+## 2.0 Beta
 
--folder:
---main.py
---AnalisysRep:
-----see reports here
+### What's new
+
+- Completely reworked the tool structure
+- Reworked HTTP response analysis
+- Added HTTP status code analysis
+- Added final URL detection
+- Added server detection
+- Added Content-Type detection
+- Added response size calculation
+- Added cookie detection and count
+- Added redirect detection
+- Added HTTP methods detection via OPTIONS
+- Improved error handling
+- Removed unused functions
+
+### Coming in 2.0
+
+- File saving system
+- HTML response saving
+- Headers export
+- Cookie export
+- JSON analysis reports
+- Improved output formatting
